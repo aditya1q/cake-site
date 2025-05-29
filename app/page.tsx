@@ -18,7 +18,7 @@ import { TestimonialsSlider } from "@/components/testimonials-slider"
 import { UrgencyScarcity } from "@/components/urgency-scarcity"
 import { allCakes, categories } from "@/data/cakes"
 import { ExitIntentPopup } from "@/components/exit-intent-popup"
-import { NewsletterSubscription } from "@/components/newsletter-subscription"
+// import { NewsletterSubscription } from "@/components/newsletter-subscription"
 import { InstagramFeed } from "@/components/instagram-feed"
 import { DiscountCountdownPopup, useDiscountPopup } from "@/components/discount-countdown-popup"
 import { WelcomeBanner } from "@/components/welcome-banner"
@@ -232,11 +232,11 @@ export default function CakeBakeryHomepage() {
         )}
       </header>
 
-      <NewsletterSubscription
+      {/* <NewsletterSubscription
         variant="banner"
         isOpen={showNewsletterBanner}
         onClose={() => setShowNewsletterBanner(false)}
-      />
+      /> */}
 
       {/* Navigation */}
       <nav className="hidden md:block bg-white/95 backdrop-blur-md border-b border-rose-100 sticky top-14 z-40">
