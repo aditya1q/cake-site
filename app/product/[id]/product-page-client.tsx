@@ -174,7 +174,7 @@ export default function ProductPageClient({ product }: ProductPageClientProps) {
               </Button>
               <div className="hidden sm:block">
                 <h1 className="text-xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
-                  SweetDelights
+                  KyraBakers
                 </h1>
               </div>
             </div>

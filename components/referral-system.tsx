@@ -77,13 +77,13 @@ export function ReferralSystem() {
   }
 
   const shareReferral = () => {
-    const shareText = `🎂 Join SweetDelights and get ₹100 off your first order! Use my referral code: ${referralData.referralCode}\n\nOrder fresh, handcrafted cakes with same-day delivery! 🚚✨`
+    const shareText = `🎂 Join KyraBakers and get ₹100 off your first order! Use my referral code: ${referralData.referralCode}\n\nOrder fresh, handcrafted cakes with same-day delivery! 🚚✨`
 
     if (navigator.share) {
       navigator.share({
-        title: "SweetDelights Referral",
+        title: "KyraBakers Referral",
         text: shareText,
-        url: `https://sweetdelights.com?ref=${referralData.referralCode}`,
+        url: `https://KyraBakers.com?ref=${referralData.referralCode}`,
       })
     } else {
       navigator.clipboard.writeText(shareText)
@@ -92,7 +92,7 @@ export function ReferralSystem() {
     }
   }
 
-  const referralUrl = `https://sweetdelights.com?ref=${referralData.referralCode}`
+  const referralUrl = `https://KyraBakers.com?ref=${referralData.referralCode}`
 
   return (
     <div className="space-y-6">

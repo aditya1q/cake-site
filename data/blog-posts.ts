@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     content: `
 # How to Store Cakes: Complete Guide for Maximum Freshness
 
-Proper cake storage is essential for maintaining the delicious taste and perfect texture of your favorite desserts. Whether you've ordered from SweetDelights or baked at home, these expert tips will help you keep your cakes fresh for longer.
+Proper cake storage is essential for maintaining the delicious taste and perfect texture of your favorite desserts. Whether you've ordered from KyraBakers or baked at home, these expert tips will help you keep your cakes fresh for longer.
 
 ## Room Temperature Storage
 
@@ -89,14 +89,14 @@ Proper cake storage is essential for maintaining the delicious taste and perfect
 3. **Wrong temperature**: Each cake type has optimal storage conditions
 4. **Ignoring humidity**: High humidity can affect frosting and texture
 
-## Pro Tips from SweetDelights Bakers
+## Pro Tips from KyraBakers Bakers
 
 - **Cake Boards**: Use them to make moving and storing easier
 - **Toothpicks**: Insert in frosted cakes before covering to prevent wrap from touching
 - **Slice Smart**: Cut only what you need, store remainder whole
 - **Quality Check**: Always inspect for freshness before consuming
 
-Remember, our cakes at SweetDelights are made with premium ingredients and no preservatives, so proper storage is key to enjoying them at their best!
+Remember, our cakes at KyraBakers are made with premium ingredients and no preservatives, so proper storage is key to enjoying them at their best!
     `,
     image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&crop=center",
     category: "Storage",
@@ -198,7 +198,7 @@ Consider these factors when selecting your birthday cake:
 
 ## Ordering Tips
 
-When ordering from SweetDelights:
+When ordering from KyraBakers:
 
 1. **Book Early**: Popular designs need advance notice
 2. **Provide Details**: Share theme, colors, and preferences
@@ -331,7 +331,7 @@ Recreate the magic of our bestselling Chocolate Truffle Delight in your own kitc
 **Cake Cracking**: Oven too hot or overbaked
 **Uneven Layers**: Use cake strips while baking
 
-Enjoy creating this masterpiece at home, and remember - practice makes perfect! For the authentic SweetDelights experience, you can always order our professionally crafted version.
+Enjoy creating this masterpiece at home, and remember - practice makes perfect! For the authentic KyraBakers experience, you can always order our professionally crafted version.
     `,
     image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&crop=center",
     category: "Recipes",
@@ -470,7 +470,7 @@ Consider how your cake will look in photos and social media posts.
 ### Budget
 Balance your vision with practical budget considerations.
 
-## Working with SweetDelights
+## Working with KyraBakers
 
 Our wedding cake specialists can help you incorporate these 2024 trends into your perfect wedding cake:
 
@@ -487,7 +487,7 @@ Our wedding cake specialists can help you incorporate these 2024 trends into you
 **2-3 Weeks Before**: Final guest count and details
 **1 Week Before**: Delivery and setup confirmation
 
-Your wedding cake should reflect your unique love story while incorporating the beautiful trends that speak to you. Let SweetDelights help you create a stunning centerpiece that will be remembered long after the last bite!
+Your wedding cake should reflect your unique love story while incorporating the beautiful trends that speak to you. Let KyraBakers help you create a stunning centerpiece that will be remembered long after the last bite!
     `,
     image: "https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=600&h=400&fit=crop&crop=center",
     category: "Occasions",
@@ -636,7 +636,7 @@ While learning is fun, sometimes you need perfection:
 
 Remember, every professional baker started as a beginner. The key is consistent practice and patience with yourself. Each cake you decorate is a learning opportunity!
 
-At SweetDelights, we're always happy to share tips and answer questions. Follow us on social media for regular decorating tips and inspiration!
+At KyraBakers, we're always happy to share tips and answer questions. Follow us on social media for regular decorating tips and inspiration!
     `,
     image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=600&h=400&fit=crop&crop=center",
     category: "Tips",

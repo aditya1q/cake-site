@@ -135,7 +135,7 @@ export function ExitIntentPopup({ isOpen, onClose, onSubscribe }: ExitIntentPopu
                     <Gift className="h-8 w-8 text-green-600" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Welcome to SweetDelights! 🎉</h4>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Welcome to KyraBakers! 🎉</h4>
                     <p className="text-gray-600 mb-3">Check your email for your 15% discount code!</p>
                     <Badge className="bg-green-100 text-green-800 px-3 py-1">SWEET15 - Your Discount Code</Badge>
                   </div>

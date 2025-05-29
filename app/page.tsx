@@ -138,7 +138,7 @@ export default function CakeBakeryHomepage() {
           <div className="flex items-center justify-between h-14">
             {/* Logo */}
             <div className="flex items-center cursor-pointer" onClick={() => router.push("/")}>
-              <h1 className="text-xl sm:text-2xl font-bold text-rose-600">SweetDelights</h1>
+              <h1 className="text-xl sm:text-2xl font-bold text-rose-600">KyraBakers</h1>
             </div>
 
             {/* Search Bar - Hidden on mobile */}
@@ -495,7 +495,7 @@ export default function CakeBakeryHomepage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 sm:gap-8">
             <div className="space-y-3 sm:space-y-4">
-              <h4 className="text-lg sm:text-xl font-bold text-rose-400">SweetDelights</h4>
+              <h4 className="text-lg sm:text-xl font-bold text-rose-400">KyraBakers</h4>
               <p className="text-gray-300 text-sm sm:text-base">
                 Creating sweet memories with handcrafted cakes made with love and premium ingredients.
               </p>
@@ -552,14 +552,14 @@ export default function CakeBakeryHomepage() {
               <h5 className="font-semibold text-sm sm:text-base">Contact Info</h5>
               <div className="text-gray-300 space-y-2 text-sm">
                 <p>📞 +91 98765 43210</p>
-                <p>📧 hello@sweetdelights.com</p>
+                <p>📧 hello@KyraBakers.com</p>
                 <p>📍 Mumbai, Maharashtra</p>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; 2024 SweetDelights. All rights reserved.</p>
+            <p>&copy; 2024 KyraBakers. All rights reserved.</p>
           </div>
         </div>
       </footer>

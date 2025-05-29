@@ -33,7 +33,7 @@ export default function ReferralsPage() {
                 <ArrowLeft className="h-4 w-4 mr-2" />
                 Back
               </Button>
-              <h1 className="text-xl font-bold text-rose-600">SweetDelights</h1>
+              <h1 className="text-xl font-bold text-rose-600">KyraBakers</h1>
             </div>
           </div>
         </div>

@@ -59,7 +59,7 @@ export default function BlogPage() {
                 <ArrowLeft className="h-4 w-4 mr-1" />
                 <span className="text-sm">Home</span>
               </Button>
-              <h1 className="text-lg sm:text-xl font-bold text-rose-600">SweetDelights Blog</h1>
+              <h1 className="text-lg sm:text-xl font-bold text-rose-600">Kyra Bakers Blog</h1>
             </div>
           </div>
         </div>

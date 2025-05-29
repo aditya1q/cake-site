@@ -166,7 +166,7 @@ export default function AdminDashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-4">
-              <h1 className="text-2xl font-bold text-gray-900">SweetDelights Admin</h1>
+              <h1 className="text-2xl font-bold text-gray-900">KyraBakers Admin</h1>
               <Badge className="bg-rose-100 text-rose-700">Dashboard</Badge>
             </div>
             <div className="flex items-center space-x-4">

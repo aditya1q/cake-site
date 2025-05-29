@@ -51,7 +51,7 @@ export default function BlogPostPage() {
                 <ArrowLeft className="h-4 w-4 mr-1" />
                 <span className="text-sm">Blog</span>
               </Button>
-              <h1 className="text-lg sm:text-xl font-bold text-rose-600">SweetDelights</h1>
+              <h1 className="text-lg sm:text-xl font-bold text-rose-600">KyraBakers</h1>
             </div>
             <div className="flex items-center space-x-2">
               <Button variant="ghost" size="sm" className="h-8 w-8 p-0">

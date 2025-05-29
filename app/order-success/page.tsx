@@ -15,7 +15,7 @@ export default function OrderSuccessPage() {
         <div className="text-center mb-8">
           <CheckCircle className="h-24 w-24 text-green-500 mx-auto mb-4" />
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Order Placed Successfully!</h1>
-          <p className="text-lg text-gray-600">Thank you for choosing SweetDelights</p>
+          <p className="text-lg text-gray-600">Thank you for choosing KyraBakers</p>
         </div>
 
         <Card className="mb-8">

@@ -16,7 +16,7 @@ interface ProductSEOData {
 }
 
 export function generateProductMetadata(product: ProductSEOData): Metadata {
-  const title = `${product.name} - Fresh Handcrafted Cake | SweetDelights`;
+  const title = `${product.name} - Fresh Handcrafted Cake | KyraBakers`;
   const description = `Order ${product.name} online. ${product.description} ✓ Same-day delivery ✓ Fresh ingredients ✓ Premium quality. Starting at ₹${product.price}. Order now!`;
 
   return {
@@ -35,7 +35,7 @@ export function generateProductMetadata(product: ProductSEOData): Metadata {
         },
       ],
       type: "website", // Changed from "product" to "website"
-      siteName: "SweetDelights",
+      siteName: "KyraBakers",
     },
     twitter: {
       card: "summary_large_image",
@@ -106,7 +106,7 @@ export function generateBreadcrumbSchema(breadcrumbs: Array<{ name: string; url:
       "@type": "ListItem",
       position: index + 1,
       name: crumb.name,
-      item: `https://sweetdelights.com${crumb.url}`,
+      item: `https://KyraBakers.com${crumb.url}`,
     })),
   };
 }
@@ -115,9 +115,9 @@ export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "SweetDelights",
-    url: "https://sweetdelights.com",
-    logo: "https://sweetdelights.com/logo.png",
+    name: "KyraBakers",
+    url: "https://KyraBakers.com",
+    logo: "https://KyraBakers.com/logo.png",
     description: "Premium cake delivery service with fresh, handcrafted cakes and same-day delivery",
     address: {
       "@type": "PostalAddress",
@@ -134,9 +134,9 @@ export function generateOrganizationSchema() {
       availableLanguage: ["English", "Hindi"],
     },
     sameAs: [
-      "https://facebook.com/sweetdelights",
-      "https://instagram.com/sweetdelights",
-      "https://twitter.com/sweetdelights",
+      "https://facebook.com/KyraBakers",
+      "https://instagram.com/KyraBakers",
+      "https://twitter.com/KyraBakers",
     ],
   };
 }

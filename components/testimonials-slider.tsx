@@ -33,7 +33,7 @@ const testimonials = [
     location: "Bangalore",
     rating: 5,
     comment:
-      "SweetDelights never disappoints! I've ordered multiple times for different occasions and every cake has been perfect. The quality is consistent and the taste is amazing.",
+      "KyraBakers never disappoints! I've ordered multiple times for different occasions and every cake has been perfect. The quality is consistent and the taste is amazing.",
     cakeOrdered: "Black Forest Bliss",
     date: "2024-01-10",
   },

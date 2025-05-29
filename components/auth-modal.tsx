@@ -78,7 +78,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-center text-2xl font-bold text-rose-600">Welcome to SweetDelights</DialogTitle>
+          <DialogTitle className="text-center text-2xl font-bold text-rose-600">Welcome to KyraBakers</DialogTitle>
         </DialogHeader>
 
         <Tabs defaultValue="login" className="w-full">

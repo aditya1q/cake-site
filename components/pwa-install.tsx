@@ -75,7 +75,7 @@ export function PWAInstall() {
         <CardContent className="p-4">
           <div className="flex items-start space-x-3">
             <div className="flex-1">
-              <h3 className="font-semibold text-gray-900 mb-1">Install SweetDelights App</h3>
+              <h3 className="font-semibold text-gray-900 mb-1">Install KyraBakers App</h3>
               <p className="text-sm text-gray-600 mb-3">
                 Get faster access, offline browsing, and push notifications for your orders!
               </p>

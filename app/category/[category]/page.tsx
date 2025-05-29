@@ -122,7 +122,7 @@ export default function CategoryPage() {
                 <ArrowLeft className="h-4 w-4 mr-1" />
                 <span className="text-sm">Back</span>
               </Button>
-              <h1 className="text-lg sm:text-xl font-bold text-rose-600">SweetDelights</h1>
+              <h1 className="text-lg sm:text-xl font-bold text-rose-600">KyraBakers</h1>
             </div>
             <Button variant="ghost" size="sm" className="relative h-8 w-8 p-0" onClick={() => router.push("/cart")}>
               <ShoppingCart className="h-4 w-4" />

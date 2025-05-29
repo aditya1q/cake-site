@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!product) {
     return {
-      title: "Product Not Found | SweetDelights",
+      title: "Product Not Found | KyraBakers",
       description: "The requested product could not be found.",
     };
   }
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     rating: product.rating,
     reviews: product.reviews,
     availability: "InStock",
-    brand: "SweetDelights",
+    brand: "KyraBakers",
     sku: `SD-${product.id.toString().padStart(4, "0")}`,
   });
 }
@@ -52,7 +52,7 @@ export default function ProductPage({ params }: Props) {
     rating: product.rating,
     reviews: product.reviews,
     availability: "InStock",
-    brand: "SweetDelights",
+    brand: "KyraBakers",
     sku: `SD-${product.id.toString().padStart(4, "0")}`,
   });
 

@@ -153,10 +153,10 @@ export function InstagramFeed({ maxPosts = 6, showHeader = true, className = "" 
           <Button
             variant="outline"
             className="border-pink-300 text-pink-600 hover:bg-pink-50"
-            onClick={() => window.open("https://instagram.com/sweetdelights", "_blank")}
+            onClick={() => window.open("https://instagram.com/KyraBakers", "_blank")}
           >
             <Instagram className="h-4 w-4 mr-2" />
-            Follow @sweetdelights
+            Follow @KyraBakers
           </Button>
         </div>
       )}
@@ -237,7 +237,7 @@ export function InstagramFeed({ maxPosts = 6, showHeader = true, className = "" 
         <Button
           variant="outline"
           className="border-pink-300 text-pink-600 hover:bg-pink-50"
-          onClick={() => window.open("https://instagram.com/sweetdelights", "_blank")}
+          onClick={() => window.open("https://instagram.com/KyraBakers", "_blank")}
         >
           View More on Instagram
           <ExternalLink className="h-4 w-4 ml-2" />

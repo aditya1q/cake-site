@@ -31,7 +31,7 @@ interface AuthState {
 const mockUsers = [
   {
     id: "1",
-    email: "demo@sweetdelights.com",
+    email: "demo@KyraBakers.com",
     password: "password123",
     user_metadata: {
       full_name: "Demo User",

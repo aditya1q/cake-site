@@ -8,13 +8,13 @@ import { AuthInitializer } from "@/components/auth-initializer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SweetDelights - Premium Cake Delivery | Fresh Handcrafted Cakes",
+  title: "KyraBakers - Premium Cake Delivery | Fresh Handcrafted Cakes",
   description:
     "Order fresh, handcrafted cakes with same-day delivery. Premium quality ingredients, artistic perfection, and unforgettable taste. Perfect for birthdays, weddings, and celebrations.",
   keywords: "cakes, cake delivery, birthday cakes, wedding cakes, fresh cakes, handcrafted, Mumbai, same day delivery",
-  authors: [{ name: "SweetDelights" }],
-  creator: "SweetDelights",
-  publisher: "SweetDelights",
+  authors: [{ name: "KyraBakers" }],
+  creator: "KyraBakers",
+  publisher: "KyraBakers",
   formatDetection: {
     email: false,
     address: false,
@@ -25,17 +25,17 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "SweetDelights - Premium Cake Delivery",
+    title: "KyraBakers - Premium Cake Delivery",
     description:
       "Order fresh, handcrafted cakes with same-day delivery. Premium quality ingredients and artistic perfection.",
-    url: "https://sweetdelights.vercel.app",
-    siteName: "SweetDelights",
+    url: "https://KyraBakers.vercel.app",
+    siteName: "KyraBakers",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "SweetDelights - Premium Cake Delivery",
+        alt: "KyraBakers - Premium Cake Delivery",
       },
     ],
     locale: "en_US",
@@ -43,11 +43,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SweetDelights - Premium Cake Delivery",
+    title: "KyraBakers - Premium Cake Delivery",
     description:
       "Order fresh, handcrafted cakes with same-day delivery. Premium quality ingredients and artistic perfection.",
     images: ["/og-image.jpg"],
-    creator: "@sweetdelights",
+    creator: "@KyraBakers",
   },
   robots: {
     index: true,
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export const viewport: Viewport = {
@@ -89,7 +89,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="SweetDelights" />
+        <meta name="apple-mobile-web-app-title" content="KyraBakers" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-TileColor" content="#e11d48" />
         <meta name="msapplication-tap-highlight" content="no" />
