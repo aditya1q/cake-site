@@ -11,6 +11,7 @@ interface UrgencyScarcityProps {
   flashDealEndTime?: Date
   viewersCount?: number
   className?: string
+  index?: number
 }
 
 export function UrgencyScarcity({
@@ -19,6 +20,7 @@ export function UrgencyScarcity({
   flashDealEndTime,
   viewersCount = 12,
   className = "",
+  index
 }: UrgencyScarcityProps) {
   const [timeLeft, setTimeLeft] = useState<{
     hours: number
@@ -67,7 +69,7 @@ export function UrgencyScarcity({
   return (
     <div className={`space-y-3 ${className}`}>
       {/* Stock Scarcity */}
-      {stockLeft <= 10 && (
+      {index === 4 && (
         <Card className={`border ${getStockColor()}`}>
           <CardContent className="p-1">
             <div className="flex items-center space-x-2">
@@ -109,28 +111,32 @@ export function UrgencyScarcity({
       )}
 
       {/* Social Proof - Viewers */}
-      <Card className="border-blue-200 bg-blue-50">
-        <CardContent className="p-1">
-          <div className="flex items-center space-x-2">
-            <Users className="h-2 w-4 text-blue-600" />
-            <div className="text-xs text-blue-700">
-              <span className="font-semibold">{viewersCount} people</span> are viewing this cake right now
+      {index === 2 &&
+        <Card className="border-blue-200 bg-blue-50">
+          <CardContent className="p-1">
+            <div className="flex items-center space-x-2">
+              <Users className="h-2 w-4 text-blue-600" />
+              <div className="text-xs text-blue-700">
+                <span className="font-semibold">{viewersCount} people</span> are viewing this cake right now
+              </div>
             </div>
-          </div>
-        </CardContent>
-      </Card>
+          </CardContent>
+        </Card>
+      }
 
       {/* Recent Orders */}
-      <Card className="border-green-200 bg-green-50">
-        <CardContent className="p-1">
-          <div className="flex items-center space-x-2">
-            <Clock className="h-2 w-4 text-green-600" />
-            <div className="text-xs text-green-700">
-              <span className="font-semibold">3 orders</span> placed in the last hour
+      {index === 1 &&
+        <Card className="border-green-200 bg-green-50">
+          <CardContent className="p-1">
+            <div className="flex items-center space-x-2">
+              <Clock className="h-2 w-4 text-green-600" />
+              <div className="text-xs text-green-700">
+                <span className="font-semibold">{viewersCount} orders</span> placed in the last hour
+              </div>
             </div>
-          </div>
-        </CardContent>
-      </Card>
+          </CardContent>
+        </Card>
+      }
     </div>
   )
 }

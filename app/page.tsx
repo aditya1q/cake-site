@@ -246,9 +246,8 @@ export default function CakeBakeryHomepage() {
               <Button
                 key={category}
                 variant="ghost"
-                className={`text-gray-700 hover:text-rose-600 hover:bg-rose-50 font-medium h-8 px-3 text-sm transition-colors ${
-                  activeCategory === category ? "text-rose-600 bg-rose-50" : ""
-                }`}
+                className={`text-gray-700 hover:text-rose-600 hover:bg-rose-50 font-medium h-8 px-3 text-sm transition-colors ${activeCategory === category ? "text-rose-600 bg-rose-50" : ""
+                  }`}
                 onClick={() => handleCategoryClick(category)}
               >
                 {category}
@@ -345,9 +344,8 @@ export default function CakeBakeryHomepage() {
                     <Button
                       size="sm"
                       variant="ghost"
-                      className={`absolute top-2 right-2 bg-white/80 hover:bg-white h-7 w-7 p-0 ${
-                        isInWishlist(cake.id) ? "text-red-500" : "text-gray-600"
-                      }`}
+                      className={`absolute top-2 right-2 bg-white/80 hover:bg-white h-7 w-7 p-0 ${isInWishlist(cake.id) ? "text-red-500" : "text-gray-600"
+                        }`}
                       onClick={(e) => {
                         e.stopPropagation()
                         handleWishlistToggle(cake)
@@ -382,7 +380,9 @@ export default function CakeBakeryHomepage() {
                     </div>
 
                     <Button
-                      className="w-full bg-rose-600 hover:bg-rose-700 text-white h-8 sm:h-9 text-xs sm:text-sm"
+                      className="w-full bg-rose-600 hover:bg-rose-700 text-white h-8 sm:h-9 text-xs sm:text-sm "
+                      // disabled={addToCart}
+                      // disabled={addToCart}
                       onClick={() => handleAddToCart(cake)}
                     >
                       Add to Cart
@@ -391,13 +391,14 @@ export default function CakeBakeryHomepage() {
                 </CardContent>
 
                 {/* Urgency & Scarcity for first few items */}
-                {index < 3 && (
+                {index && (
                   <div className="absolute top-0 right-0 p-2">
                     <UrgencyScarcity
                       stockLeft={Math.floor(Math.random() * 8) + 2}
                       isFlashDeal={index === 0}
                       flashDealEndTime={flashDealEndTime}
                       viewersCount={Math.floor(Math.random() * 20) + 5}
+                      index={index}
                       className="w-48"
                     />
                   </div>

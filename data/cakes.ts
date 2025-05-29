@@ -174,7 +174,7 @@ export const allCakes: Cake[] = [
     name: "Pineapple Upside Down",
     price: 699,
     originalPrice: 899,
-    image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=400&h=400&fit=crop&crop=center",
+    image: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=400&h=400&fit=crop&crop=center",
     rating: 4.4,
     reviews: 134,
     tag: "Tropical",
