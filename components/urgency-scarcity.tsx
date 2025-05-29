@@ -75,8 +75,8 @@ export function UrgencyScarcity({
             <div className="flex items-center space-x-2">
               <button className="text-sm">{getStockIcon()}</button>
               <div className="flex-1">
-                <h1 className="font-semibold text-xs">{stockLeft <= 3 ? "Almost Sold Out!" : "Limited Stock"}</h1>
-                <p className="text-xs">Only {stockLeft} left in stock - order soon!</p>
+                <h1 className="font-semibold text-[11px]">{stockLeft <= 3 ? "Almost Sold Out!" : "Limited Stock"}</h1>
+                <p className="text-[10px]">Only {stockLeft} left in stock - order soon!</p>
               </div>
             </div>
           </CardContent>
@@ -90,17 +90,17 @@ export function UrgencyScarcity({
             <div className="flex items-center space-x-2">
               <Flame className="h-2 w-5 text-red-500" />
               <div className="flex-1">
-                <div className="font-semibold text-xs text-red-700">Flash Deal Ends In:</div>
+                <div className="font-semibold text-[11px] text-red-700">Flash Deal Ends In:</div>
                 <div className="flex items-center space-x-1 mt-1">
-                  <Badge variant="secondary" className="bg-red-100 text-red-700 text-xs px-2 py-0">
+                  <Badge variant="secondary" className="bg-red-100 text-red-700 text-[10px] px-2 py-0">
                     {timeLeft.hours.toString().padStart(2, "0")}h
                   </Badge>
                   <span className="text-red-500">:</span>
-                  <Badge variant="secondary" className="bg-red-100 text-red-700 text-xs px-2 py-0">
+                  <Badge variant="secondary" className="bg-red-100 text-red-700 text-[10px] px-2 py-0">
                     {timeLeft.minutes.toString().padStart(2, "0")}m
                   </Badge>
                   <span className="text-red-500">:</span>
-                  <Badge variant="secondary" className="bg-red-100 text-red-700 text-xs px-2 py-0">
+                  <Badge variant="secondary" className="bg-red-100 text-red-700 text-[10px] px-2 py-0">
                     {timeLeft.seconds.toString().padStart(2, "0")}s
                   </Badge>
                 </div>
@@ -116,7 +116,7 @@ export function UrgencyScarcity({
           <CardContent className="p-1">
             <div className="flex items-center space-x-2">
               <Users className="h-2 w-4 text-blue-600" />
-              <div className="text-xs text-blue-700">
+              <div className="text-[10px] text-blue-700">
                 <span className="font-semibold">{viewersCount} people</span> are viewing this cake right now
               </div>
             </div>
@@ -130,7 +130,7 @@ export function UrgencyScarcity({
           <CardContent className="p-1">
             <div className="flex items-center space-x-2">
               <Clock className="h-2 w-4 text-green-600" />
-              <div className="text-xs text-green-700">
+              <div className="text-[10px] text-green-700">
                 <span className="font-semibold">{viewersCount} orders</span> placed in the last hour
               </div>
             </div>
